@@ -40,4 +40,9 @@ public class DemoController {
     public String demo5() {
         return "demo3";
     }
+
+    @GetMapping("7")
+    public String demo7() {
+        return "demo7";
+    }
 }
