@@ -15,4 +15,9 @@ public class DemoController {
     public String demo1() {
         return "demo1";
     }
+
+    @GetMapping("2")
+    public String demo2() {
+        return "demo2";
+    }
 }
