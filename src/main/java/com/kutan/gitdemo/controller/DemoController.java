@@ -25,4 +25,9 @@ public class DemoController {
     public String demo3() {
         return "demo3";
     }
+    
+    @GetMapping("4")
+    public String demo3() {
+        return "demo3";
+    }
 }
