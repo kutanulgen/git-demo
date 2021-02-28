@@ -27,7 +27,7 @@ public class DemoController {
     }
     
     @GetMapping("5")
-    public String demo3() {
+    public String demo5() {
         return "demo3";
     }
 }
